@@ -1,0 +1,134 @@
+*{
+    box-sizing: :border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 61, 61);
+    color: aliceblue;
+    font-size: 1 rem;
+}
+.temperature-Converter{
+background-color: rgb(179, 147, 147);
+width: 100%;
+min-width: 120 px;
+padding: 20px 25px 45px;
+border-radius: 25px;
+height: auto;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40 px;
+    font-size: 20px;
+    color: #252020;
+
+}
+.title{
+    color:rgb(26, 25, 24);
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+.result{
+    text-align: center;
+    margin: 20px 0 ;
+}
+
+.result-heading{
+    color: #555;
+    font-size: 1 rem;
+    font-weight: 600;
+
+}
+
+.celsius-value{
+    border-bottom: 2px solid brown;
+    padding: 10px;
+    transition: all;
+}
+
+.degree-type{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+
+.degree-field{
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+
+}
+label{
+    color: rgb(51, 39, 39);
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+
+}
+
+input,select{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid aliceblue;
+    margin-bottom: 15px;
+    padding: 5px;
+
+}
+
+input:focus{
+    border: 1px solid #cc3934;
+}
+
+option{
+    background-color: brown;
+    color: antiquewhite;
+
+}
+#convert-btn{
+    border: none;
+    border-radius: 45 px;
+    /* all clear */
+    outline: none;
+    background: rgb(172, 88, 88);
+    color: aliceblue;
+    padding: 12px 80px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-top: 10px; 
+    transition: all -3s ease-in-out;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#convert-btn:hover{
+    background: rgb(143, 46, 46);
+
+}
+
+.fa{
+    margin-right: 12px;
+    margin-left: 20px;
+    
+}
+
+.loading{
+    display: none;
+}
+
+
